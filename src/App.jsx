@@ -2,7 +2,7 @@ import { useState, useRef } from 'react'
 import './App.css'
 
 const MODEL_API_URL = "https://yukieos-groceryclassifier.hf.space"
-const PRICE_API_URL = "https://grocery-classification.onrender.com"
+const PRICE_API_URL = "https://groceryclassification-api.vercel.app"
 
 function App() {
   const [searchMethod, setSearchMethod] = useState('image')
